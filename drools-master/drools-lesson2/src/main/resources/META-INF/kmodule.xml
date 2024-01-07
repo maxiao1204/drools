@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kmodule xmlns="http://www.drools.org/xsd/kmodule">
+
+    <kbase packages="com.rules" name="all-kbase">
+        <ksession name="all-kieSession" default="true"/>
+    </kbase>
+    <kbase packages="com.global" name="test-global">
+        <ksession name="test-global" default="true"/>
+    </kbase>
+    <kbase packages="com.channel" name="test-channel">
+        <ksession name="test-channel" default="true"/>
+    </kbase>
+    <kbase packages="com.template" name="test-template">
+        <ruleTemplate dtable="com/template/template.xls" template="com/template/template.drt" row="2" col="1"/>
+    </kbase>
+    <!--<kbase packages="com.cep" name="test-cep" eventProcessingMode="stream">
+
+    </kbase>-->
+
+    <kbase packages="com.cep" name="test-cep">
+
+    </kbase>
+
+    <kbase packages="com.compareList" name="compareList-kbase">
+        <ksession name="compareList"/>
+    </kbase>
+    <kbase packages="com.memberof" name="memberof-kbase">
+        <ksession name="memberOfSession"/>
+    </kbase>
+
+    <kbase packages="com.containsVar" name="contains-kbase">
+        <ksession name="containsVar"/>
+    </kbase>
+
+    <kbase packages="com.logger" name="contains-logger">
+        <ksession name="loggerTest"/>
+    </kbase>
+</kmodule>

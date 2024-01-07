@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kmodule xmlns="http://www.drools.org/xsd/kmodule">
+
+    <kbase name="decision-kbase" packages="com.decision1">
+        <ksession name="decision-rules"/>
+    </kbase>
+    <kbase name="decision-kbase2" packages="com.decision2">
+        <ksession name="decision-rules2"/>
+    </kbase>
+    <kbase name="decision-kbase3" packages="com.decision3">
+        <ksession name="decision-rules3"/>
+    </kbase>
+    <kbase name="decision-kbase4" packages="com.decision4">
+        <ksession name="decision-rules4"/>
+    </kbase>
+    <kbase name="decision-kbase5" packages="com.decision5">
+        <ksession name="decision-rules5"/>
+    </kbase>
+    <kbase name="decision-kbase6" packages="com.decision6">
+        <ksession name="decision-rules6"/>
+    </kbase>
+    <kbase name="decision-kbase7" packages="com.decision7">
+        <ksession name="decision-rules7"/>
+    </kbase>
+    <kbase name="decision-kbase8" packages="com.decision8">
+        <ksession name="decision-rules8"/>
+    </kbase>
+    <kbase name="decision-kbase9" packages="com.decision9">
+        <ksession name="decision-rules9"/>
+    </kbase>
+    <kbase name="decision-kbase10" packages="com.decision10">
+        <ksession name="decision-rules10"/>
+    </kbase>
+    <kbase name="decision-kbase12" packages="com.decision12">
+        <ksession name="decision-rules12"/>
+    </kbase>
+</kmodule>

@@ -1,0 +1,23 @@
+package com.cep
+
+import com.secbro2.drools.demo.Person
+declare Person
+    @Role(event)
+    @expires(2s)
+end
+
+rule "test-cep"
+
+when
+
+//    $p : Person() over window : length(1)
+    $p : Person() over window : time(2s)
+
+then
+
+    System.out.println($p.getUsername());
+
+end
+
+// time(2s)
+// length(2)
